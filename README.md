@@ -2,7 +2,9 @@
 
 一个 macOS 小工具：把微信里的超长文字快速变成 DOCX，并在 Claude Code 或 OpenCode 完成任务时提醒你。
 
-![Coze 主界面](docs/images/main-window.png)
+![Coze 1.5 主界面：微信 DOCX 转换已开启，Claude Code 与 OpenCode 提醒可同时开启](docs/images/coze-1.5-main-window.png)
+
+上图为 Coze 1.5 的实际界面：底部状态栏显示 `DOCX placed in WeChat`，表示超长文本已经生成 DOCX 并放入当前微信聊天框；中间两行绿色状态分别代表 Claude Code 和 OpenCode 的提醒均已开启。
 
 ## 功能一：微信超长文本自动转 DOCX
 
