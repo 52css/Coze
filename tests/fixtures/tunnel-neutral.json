@@ -1,0 +1,22 @@
+{
+  "host": "bastion.example.com",
+  "port": 22,
+  "username": "demo",
+  "identityFile": "",
+  "routes": [
+    {
+      "name": "内部看板",
+      "localPort": 8080,
+      "targetHost": "10.0.0.8",
+      "targetPort": 80,
+      "path": "/"
+    },
+    {
+      "name": "管理后台",
+      "localPort": 8081,
+      "targetHost": "10.0.0.9",
+      "targetPort": 80,
+      "path": "/admin"
+    }
+  ]
+}
